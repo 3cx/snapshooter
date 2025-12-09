@@ -4,7 +4,7 @@
   <PropertyGroup>
     <AssemblyName>Snapshooter</AssemblyName>
     <RootNamespace>Snapshooter</RootNamespace>
-    <PackageId>Snapshooter</PackageId>
+    <PackageId>SnapshooterV4</PackageId>
     <Description>Snapshooter core functionalities to create and assert snapshots in .Net unit tests.</Description>
     <IsTestProject>false</IsTestProject>
   </PropertyGroup>

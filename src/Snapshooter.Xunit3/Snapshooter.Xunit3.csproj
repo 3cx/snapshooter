@@ -2,7 +2,7 @@
   <Import Project="$(CCResourceProjectProps)" Condition="Exists('$(CCResourceProjectProps)')" />
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0</TargetFrameworks>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <AssemblyName>Snapshooter.Xunit3</AssemblyName>
     <RootNamespace>Snapshooter.Xunit3</RootNamespace>
     <PackageId>Snapshooter.Xunit3</PackageId>
@@ -14,8 +14,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="xunit.v3.core" />
-    <PackageReference Include="xunit.v3.assert" />
+    <PackageReference Include="xunit.v3.extensibility.core" Version="3.2.1" />
+    <PackageReference Include="xunit.v3.assert" Version="3.2.1" />
   </ItemGroup>
   
   <ItemGroup>
